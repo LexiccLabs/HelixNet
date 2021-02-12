@@ -2,9 +2,8 @@
 
 # NuID :: Examples
 
-This repository contains examples of interacting with various NuID
-libraries, packages, and APIs across various languages, libraries, and
-frameworks. 
+This repository contains reference implementation of interacting with various NuID
+libraries, packages, and APIs across various languages, libraries, and frameworks. 
 
 ## Prerequisites
 
