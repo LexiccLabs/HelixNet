@@ -4,8 +4,7 @@
 
 This repository contains examples of interacting with various NuID
 libraries, packages, and APIs across various languages, libraries, and
-frameworks. The examples provided here are meant to suplement the official
-documentation found at NuID's [Developer Portal](https://portal.nuid.io).
+frameworks. 
 
 ## Prerequisites
 
@@ -40,25 +39,10 @@ As we add new examples for other languages you'll be able to change
 ### Supported examples
 
 #### `client=<lang>`
-
 + `js-react` (default) - `make start` or `make start client=js-react`
 
 #### `server=<lang>`
-
-+ `go` - `make start server=go`
 + `js-node` (default) - `make start` or `make start server=js-node`
-+ `ruby-rails` - `make start server=ruby-rails`
-
-## Documentation
-
-Lots of the code in each example has been commented, but more documentation can
-be found on the [portal](https://portal.nuid.io/docs). We're constantly updating
-the docs with guides, videos, and language reference.
-
-## Contact
-
-[Get in touch](https://portal.nuid.io/support) with any questions or feedback at
-[support@nuid.io](support@nuid.io). We'd love to hear from you.
 
 ---
 
@@ -82,14 +66,6 @@ will get you back to the most recent examples available.
 - Eliminates password breach risks. Passwords don't leave your client devices
   and aren't stored on your server.
 - NuID Auth API provides ZK credential creation and retrieval.
-
-## Demo: Initial app uses hashed password authentication
-
-- Two core flows in authentication: registration and login.
-- Email+Password used for registering and authenticating users.
-- Email is the unique key for the user account.
-- Password is always sent to backend, hashed, and stored.
-- [Browse Code](https://github.com/NuID/node-example/tree/v1)
 
 ## Demo: Integrate with NuID Auth API
 
